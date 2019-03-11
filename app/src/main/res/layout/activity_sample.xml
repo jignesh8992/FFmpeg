@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/CommandTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/commandTextView" />
+
+        <TextView
+            android:id="@+id/CommandText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/commandText" />
+
+
+        <CheckBox
+            android:id="@+id/chk_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:checked="true"
+            android:text="Show cancel button" />
+
+        <CheckBox
+            android:id="@+id/chk_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:checked="true"
+            android:text="Show Run in Background button" />
+
+        <Button
+            android:id="@+id/btn_execute"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="EXECUTE" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</ScrollView>
